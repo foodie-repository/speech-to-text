@@ -181,6 +181,16 @@ python video_to_text.py
    sudo apt-get install ffmpeg
    ```
 
+## 최근 작업 이력
+
+### 2024-12-27
+
+- **나미브 대출 강의 (251127)** 텍스트 변환 완료
+  - 동영상 2개 → 음성 추출 및 텍스트 변환
+  - 맞춤법 교정 및 마크다운 형식으로 통합 (200개 이상 오타 수정)
+  - Obsidian 노트로 이동: `/Volumes/T9/Obsidian-Foodie/02. 부동산/11. 대출/`
+  - 최종 파일: `나미브_대출 강의_251127.md` (61KB, 585줄)
+
 ## 라이선스
 
 MIT License

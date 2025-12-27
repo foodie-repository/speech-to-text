@@ -22,7 +22,7 @@ def extract_audio(video_path, audio_path):
     """동영상에서 오디오 추출하여 MP3로 저장"""
     print(f"  오디오 추출 중: {Path(video_path).name}")
     video = VideoFileClip(video_path)
-    video.audio.write_audiofile(audio_path, verbose=False, logger=None)
+    video.audio.write_audiofile(audio_path, logger=None)
     video.close()
     print(f"  ✓ 오디오 추출 완료: {Path(audio_path).name}")
 

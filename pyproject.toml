@@ -1,7 +1,10 @@
 [project]
 name = "speech-to-text"
 version = "0.1.0"
-description = "Add your description here"
+description = "동영상과 음성 파일을 텍스트로 변환하는 도구 (Whisper AI 사용)"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "openai-whisper>=20231117",
+    "moviepy>=1.0.3",
+]
